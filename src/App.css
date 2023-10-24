@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: grey;
+  align-items: center;
 }
 
 .logo {
@@ -36,7 +38,15 @@
 .card {
   padding: 2em;
 }
-
+input, select{
+  height: 30px;
+}
 .read-the-docs {
   color: #888;
+}
+.container{
+  background-color: transparent;
+  margin: 25px;
+  border-radius: 20px;
+  border-style: solid;
 }
